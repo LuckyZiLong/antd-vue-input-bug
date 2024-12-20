@@ -1,11 +1,9 @@
 <template>
   <div>
-    <Form style="width: 340px;">
+    <Form style="width: 340px">
       <FormItem>
         <Input placeholder="输入" allow-clear>
-          <template #prefix>
-            Hello
-          </template>
+          <template #prefix> Hello </template>
         </Input>
       </FormItem>
     </Form>
@@ -13,5 +11,5 @@
 </template>
 
 <script setup lang="ts">
-import { Form, FormItem, Input } from "ant-design-vue";
+import { Form, FormItem, Input } from 'ant-design-vue';
 </script>

@@ -1,4 +1,4 @@
-//import "./index.css";
+import "./index.css";
 import "ant-design-vue/dist/reset.css"
 import "remixicon/fonts/remixicon.css"
 import { createApp } from 'vue'
